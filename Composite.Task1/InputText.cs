@@ -15,7 +15,7 @@ namespace Composite.Task1
 
         public string ConvertToString()
         {
-            throw new NotImplementedException();
+            return string.Format("<inputText name='{0}' value='{1}'/>" , name, value);
         }
     }
 }

@@ -13,7 +13,7 @@ namespace Composite.Task1
 
         public string ConvertToString()
         {
-            throw new NotImplementedException();
+            return string.Format("<label value='{0}'/>", value);
         }
     }
 }

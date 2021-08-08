@@ -13,7 +13,7 @@ namespace Composite.Task2
 
         public string ConvertToString(int depth = 0)
         {
-            throw new NotImplementedException();
+            return string.Format("<label value='{0}'/>", value).PadLeft(depth, ' ');
         }
     }
 }

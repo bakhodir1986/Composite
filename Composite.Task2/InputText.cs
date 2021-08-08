@@ -15,7 +15,8 @@ namespace Composite.Task2
 
         public string ConvertToString(int depth = 0)
         {
-            throw new NotImplementedException();
+
+            return string.Format("<inputText name='{0}' value='{1}'/>" , name, value).PadLeft(depth , ' ');
         }
     }
 }
